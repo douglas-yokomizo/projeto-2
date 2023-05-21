@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #7d86ff;
+    font-weight: bold;
+    font-size: 30px;
+    gap: 16px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px 15px 0 0;
+}
+
+body{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: fit-content;
+    max-width: 960px;
+    width: 100%;
+    background-color: #ececec;
+    border-radius: 15px;
+}
+
+header img{
+    height: 72px;
+}
+
+button img{
+    height: 42px;
+}
+
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+form input{
+    padding: .5rem;
+    font-size: 18px;
+    width: 240px;
+    height: 32px;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+table th{
+    border-bottom: 2px solid #000000;
+    padding-bottom: 8px;
+}
+
+table td{
+    padding-top: 15px;
+    text-align: center;
+}
+
+span {
+    margin: 50px 0 20px 0;
+}
+
+.sucesso {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(18, 175, 18);
+}
+
+.erro {
+    font-weight: bold;
+    color: rgba(248, 32, 32, 0.822);
+}
